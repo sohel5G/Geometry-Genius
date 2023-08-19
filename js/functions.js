@@ -2,6 +2,11 @@
 function getInputValueById(id){
     let input = document.getElementById(id);
     let inputStringValue = input.value;
-    let inputNumberValue = parseFloat(inputStringValue);
-    return inputNumberValue
+    return parseFloat(inputStringValue);
 }
+
+function setElementValueById(id, value){
+    let getElement = document.getElementById(id);
+    getElement.innerText = value;
+}
+
