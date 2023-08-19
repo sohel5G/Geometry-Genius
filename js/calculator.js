@@ -12,6 +12,14 @@ document.getElementById('btn-rectangle').addEventListener('click', function(){
     setElementValueById('rectangle-total', area);
 });
 
+document.getElementById('btn-parallelogram').addEventListener('click', function(){
+    let baseInputValue = getInputValueById('parallelogram-base');
+    let heightInputValue = getInputValueById('parallelogram-height');
+    let area = baseInputValue * heightInputValue;
+    setElementValueById('parallelogram-total', area);
+});
+
+
 
 
 
