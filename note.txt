@@ -1,0 +1,7 @@
+let calculationEntry = document.getElementById('calculation-entry');
+let countElement = calculationEntry.childElementCount;
+console.log(countElement);
+
+
+
+
